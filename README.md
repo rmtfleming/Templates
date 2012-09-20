@@ -24,5 +24,5 @@ These links point to the websites where some the the templates come from:
 - [LibreOffice Presentation Templates](http://templates.libreoffice.org/template-center?getCategories=Presentation&getCompatibility=any&sort_on=positive_ratings&path=%2FLibreOffice-Templates%2Ftemplate-center&portal_type=PSCProject&SearchableText=)
 - [LyX wiki Examples](http://wiki.lyx.org/Examples/Examples)
 - [YAML Website](http://www.yaml.org/)
-- [W3Schools Examples](http://www.w3schools.com/default.asp)
+- [W3Schools XML Tutorials Examples](http://www.w3schools.com/default.asp)
 
