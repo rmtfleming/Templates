@@ -12,7 +12,7 @@ To install these templates on a [Gnome desktop](http://www.gnome.org/), open a t
 	cd ~
 	git clone https://github.com/sandre/Templates.git
 
-The templates should now be visible in your [Nautilus file manager](https://en.wikipedia.org/wiki/Nautilus_%28file_manager%29)by right-clicking into "Create New Document".
+The templates should now be visible in your [Nautilus file manager](https://en.wikipedia.org/wiki/Nautilus_%28file_manager%29) by right-clicking into "Create New Document".
 
 
 External Links
