@@ -1,0 +1,280 @@
+#LyX 1.4.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 245
+\begin_document
+\begin_header
+\textclass scrlttr2
+\begin_preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Here you can modify the layout of your letter
+%% Have a look at the KOMA script documentation
+%% for details. Most commands are commented out
+%% here (i.e. we use default settings)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Load an *.lco style file (see KOMA documentation)
+%\LoadLetterOption{NF}%                          
+
+%%
+%% NF.lco
+%% 
+%% Copyright (C) 2007 Jean-Marie Pacquet
+%% 
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%% http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%
+%% KOMA-Script letter class option file containing parameters for 
+%% French standard NF Z 11-001
+%% 
+\ProvidesFile{NF.lco}
+  [2007/03/12 v1.0 Third party LaTeX2e KOMA letter-class-option]
+\@ifundefined{scr@fromname@var}{%
+  \GenericWarning{(%
+  NF%
+  .lco)\@spaces\@spaces\@spaces\@spaces\@spaces\@spaces}{%
+  Letter-class-option
+  NF
+  Warning:\space
+  This letter class option file was made only\MessageBreak
+  to be used with KOMA-Script letter class\MessageBreak
+  `scrlttr2'. Use with other classes may result\MessageBreak
+  in a lot of errors\@gobble
+  }
+}{}
+\LetterOptionNeedsPapersize{NF}{a4}
+%
+\@setplength{foldmarkhpos}{7.5mm}
+\@setplength{tfoldmarkvpos}{99mm}
+\@setplength{bfoldmarkvpos}{198mm}
+%
+% Positionnement de l'adresse pour les enveloppes au format DL
+% avec fenêtre de 45x100mm à 20mm du bord droit et 20mm du bas
+%
+\@setplength{toaddrvpos}{35mm}
+\@setplength{refaftervskip}{\baselineskip}
+\@setplength{toaddrhpos}{-10mm}
+\@setplength{toaddrwidth}{100mm}
+\@setplength{toaddrheight}{45mm}
+\@setplength{toaddrindent}{10mm}
+%
+\@setplength{refvpos}{\useplength{tfoldmarkvpos}}
+\@setplength{locwidth}{70mm}
+\@setplength{firstheadvpos}{15mm}
+\@setplength{firstheadwidth}{170mm}
+\@setplength{firstfootwidth}{\useplength{firstheadwidth}}
+\@setplength{firstfootvpos}{266.679mm} % 63 * 4.233 mm
+\@setplength{refwidth}{0pt}
+\@setplength{sigindent}{0mm}
+\@setplength{sigbeforevskip}{2\baselineskip}
+%
+\let\raggedsignature=\raggedright
+%
+%\endinput
+%%
+%% End of file `NF.lco'.
+%% THE CLASS OPTIONS
+%% Remove preceeding '%' to uncomment an item
+\KOMAoptions{%
+%,headsepline=true%            separate the header with a line on page >1
+%,footsepline=true%             separate the footer with a line on page >1
+%pagenumber=botcenter%   position of the page number (see docu)
+%,parskip=false%          Use indent instead of skip (more options cf. docu)
+fromalign=left%        alignment of the address
+,fromrule=false%    separate the address with a line?
+,fromphone=true%         print sender phone number
+,fromfax=true%          print sender fax number
+,fromemail=true%           print sender e-mail address
+,fromurl=true%               print sender URL
+%,fromlogo=true%         print a logo (position depends on fromalign)
+,addrfield=true%        print an address field?
+,backaddress=false%  print the back address?
+,subject=beforeopening%,titled% alternative subject layout and position
+%,locfield=narrow%      width of the (extra) location field
+,foldmarks=true%      print foldmarks?
+,numericaldate=false%  date layout
+,refline=wide%             layout of the refline
+}
+
+%% Customize Separators
+%\setkomavar{placeseparator}{ -- }
+%\setkomavar{backaddressseparator}{ $\cdot$ }
+\setkomavar{emailseparator}{ ~:~ }
+\setkomavar{faxseparator}{ ~:~ }
+\setkomavar{phoneseparator}{ ~:~ }
+\setkomavar{urlseparator}{ ~:~ }
+\setkomavar{subjectseparator}{ ~:~ }
+%\setkomavar{enclseparator}{ > }
+
+%% Customize fonts
+%% Use LaTeX's standard font commands
+%% Modify with \setkomafont or \addtokomafont
+%% (see KOMA documentation)
+\setkomafont{backaddress}{\rmfamily}
+%\setkomafont{descriptionlabel}{}
+\setkomafont{fromaddress}{\small}
+\setkomafont{fromname}{\scshape}
+%\setkomafont{pagefoot}{}
+%\setkomafont{pagehead}{}
+%\setkomafont{pagenumber}{}
+%\setkomafont{subject}{}
+%\setkomafont{title}{}
+\end_preamble
+\language french
+\inputencoding auto
+\fontscheme palatino
+\graphics default
+\paperfontsize 11
+\spacing single
+\papersize a4paper
+\use_geometry true
+\use_amsmath 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 3cm
+\rightmargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes true
+\end_header
+
+\begin_body
+
+\begin_layout Name
+<mon nom>
+\end_layout
+
+\begin_layout SenderAddress
+<mon adresse
+\newline
+sur plusieurs lignes>
+\end_layout
+
+\begin_layout Telephone
+<mon téléphone>
+\end_layout
+
+\begin_layout E-Mail
+<mon email>
+\end_layout
+
+\begin_layout URL
+<mon site web>
+\end_layout
+
+\begin_layout Fax
+<mon fax>
+\end_layout
+
+\begin_layout Signature
+<le signataire>
+\end_layout
+
+\begin_layout Subject
+<objet de la lettre>
+\end_layout
+
+\begin_layout Place
+<où suis-je>
+\end_layout
+
+\begin_layout Date
+<le jour de la lettre>
+\end_layout
+
+\begin_layout Address
+<Adresse du destinataire
+\newline
+sur plusieurs lignes>
+\end_layout
+
+\begin_layout Opening
+<formule d'ouverture>,
+\end_layout
+
+\begin_layout Standard
+<Le texte de la lettre.
+\end_layout
+
+\begin_layout Standard
+La lettre correspond aux habitudes françaises et reprend les définitions
+ du fichier 
+\begin_inset Quotes fld
+\end_inset
+
+NF.lco
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Pour changer les réglages d'impression de la lettre modifier les options
+ par le menu : 
+\series bold
+Document
+\family sans
+\SpecialChar \menuseparator
+
+\family default
+Paramètres
+\family sans
+\SpecialChar \menuseparator
+
+\family default
+Préambule Latex
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Pour des informations plus détaillées, vous pouvez aussi consulter la documentat
+ion KOMA Script
+\begin_inset Foot
+status open
+
+\begin_layout Standard
+\begin_inset LatexCommand \url{http://www.ctan.org/tex-archive/macros/latex/contrib/koma-script/scrguien.pdf}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.>
+\end_layout
+
+\begin_layout Closing
+<formule de la fin de la lettre>
+\end_layout
+
+\begin_layout PS
+P.\InsetSpace \thinspace{}
+S.\InsetSpace ~
+: <en post scriptum>
+\end_layout
+
+\begin_layout CC
+<en copie>
+\end_layout
+
+\begin_layout Encl
+<pièces jointes>
+\end_layout
+
+\end_body
+\end_document

@@ -22,6 +22,6 @@ These links point to the websites where some the the templates come from:
 
 - [Open Source Initiatice Licenses](http://opensource.org/licenses/alphabetical)
 - [LibreOffice Presentation templates](http://templates.libreoffice.org/template-center?getCategories=Presentation&getCompatibility=any&sort_on=positive_ratings&path=%2FLibreOffice-Templates%2Ftemplate-center&portal_type=PSCProject&SearchableText=)
-
+- [LyX wiki examples](http://wiki.lyx.org/Examples/Examples)
 
 
