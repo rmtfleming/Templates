@@ -25,4 +25,5 @@ These links point to the websites where some the the templates come from:
 - [LyX wiki Examples](http://wiki.lyx.org/Examples/Examples)
 - [YAML Website](http://www.yaml.org/)
 - [W3Schools XML Tutorials Examples](http://www.w3schools.com/default.asp)
+- [Rake Quick Reference by Greg Houston](http://ghouston.blogspot.com/2008/07/rake-quick-reference.html)
 
