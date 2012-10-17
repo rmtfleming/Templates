@@ -1,0 +1,86 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[a4paper,fontsize=12pt,NF]{scrlttr2}
+
+\KOMAoptions{backaddress=false}
+
+\setkomavar{fromname}{Iulius~Caesar}
+\setkomavar{fromaddress}{%
+	Van Eeghenlaan 69\\%
+	1691QT Amsterdam\\%
+	Nederland}
+\setkomavar{fromphone}{+31 (0)22 7394203}
+\setkomavar{fromemail}{iulius@gmail.com}
+\setkomavar{fromfax}{+31 (0)71 5144543}
+\setkomavar{fromurl}{http://stefano.italians.nl}
+\setkomavar{frombank}{Postbank 9307157}
+\setkomavar{place}{Amsterdam}
+\setkomavar{signature}{Iulius}
+
+
+\usepackage[frenchb]{babel}
+\usepackage{xunicode}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[hyphens]{url}
+\usepackage[
+	dvipdfm=true,
+	bookmarks=true,
+	colorlinks=true,
+	breaklinks=true,
+	pdftitle={Lettre de Motivation},
+	pdftoolbar=false,
+	pdfmenubar=false,
+	pdffitwindow=false,
+	pdfstartview={FitH},
+	linkcolor=Gray,
+	citecolor=BrickRed,
+	filecolor=BrickRed,
+	urlcolor=Black
+]{hyperref}
+\urlstyle{same}
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text}
+
+\setmainfont[Ligatures={Discretionary},Numbers={Lining}]{Linux Libertine O}
+
+%set the font size and leading
+\renewcommand{\normalsize}{\fontsize{12.5}{17}\selectfont}
+
+
+
+\begin{document}
+
+\begin{letter}{%
+	Damage Inc. --- HR Dept.\\%
+	Paulus Potterstraat 134\\%
+	1753KJ Amsterdam}
+
+\setkomavar{subject}{Candidature \`a l'offre d'emploi pour un poste de consultant}
+
+
+\opening{Madame, Monsieur,}
+
+Arbres de ces grands bois qui frissonnez toujours,
+Je vous aime, et vous, lierre au seuil des autres sourds,
+Ravins où l'on entend filtrer les sources vives,
+Buissons que les oiseaux pillent, joyeux convives!
+Quand je suis parmi vous, arbres de ces grands bois,
+Dans tout ce qui m'entoure et me cache à la fois,
+Dans votre solitude où je rentre en moi-même,
+Je sens quelqu'un de grand qui m'écoute et qui m'aime!
+Aussi, taillis sacrés où Dieu même apparaît,
+Arbres religieux, chênes, mousses, forêt,
+Forêt! c'est dans votre ombre et dans votre mystère,
+C'est sous votre branchage auguste et solitaire,
+Que je veux abriter mon sépulcre ignoré,
+Et que je veux dormir quand je m'endormirai.
+
+
+\closing{Vous remerciant de l'int\'er\^et que vous porterez \`a ma candidature, je vous prie d'agr\'eer, Madame, Monsieur, l'expression de mes salutations distingu\'ees.}
+					    
+\encl{Curriculum Vitae}
+
+\end{letter}
+
+\end{document}
+

@@ -20,10 +20,11 @@ External Links
 
 These links point to the websites where some the the templates come from:
 
-- [Open Source Initiative Licenses](http://opensource.org/licenses/alphabetical)
+- [Cover letter with style](http://stefano.italians.nl/archives/55)
 - [LibreOffice Presentation Templates](http://templates.libreoffice.org/template-center?getCategories=Presentation&getCompatibility=any&sort_on=positive_ratings&path=%2FLibreOffice-Templates%2Ftemplate-center&portal_type=PSCProject&SearchableText=)
 - [LyX wiki Examples](http://wiki.lyx.org/Examples/Examples)
-- [YAML Website](http://www.yaml.org/)
-- [W3Schools XML Tutorials Examples](http://www.w3schools.com/default.asp)
+- [Open Source Initiative Licenses](http://opensource.org/licenses/alphabetical)
 - [Rake Quick Reference by Greg Houston](http://ghouston.blogspot.com/2008/07/rake-quick-reference.html)
+- [W3Schools XML Tutorials Examples](http://www.w3schools.com/default.asp)
+- [YAML Website](http://www.yaml.org/)
 
