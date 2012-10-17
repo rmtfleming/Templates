@@ -20,7 +20,7 @@ External Links
 
 These links point to the websites where some the the templates come from:
 
-- [Open Source Initiatice Licenses](http://opensource.org/licenses/alphabetical)
+- [Open Source Initiative Licenses](http://opensource.org/licenses/alphabetical)
 - [LibreOffice Presentation Templates](http://templates.libreoffice.org/template-center?getCategories=Presentation&getCompatibility=any&sort_on=positive_ratings&path=%2FLibreOffice-Templates%2Ftemplate-center&portal_type=PSCProject&SearchableText=)
 - [LyX wiki Examples](http://wiki.lyx.org/Examples/Examples)
 - [YAML Website](http://www.yaml.org/)
